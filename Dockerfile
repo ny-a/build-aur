@@ -1,4 +1,4 @@
-FROM archlinux/base:latest
+FROM archlinux:latest
 
 ADD mirrorlist /etc/pacman.d/
 ADD 10-wheel-group /etc/sudoers.d/
